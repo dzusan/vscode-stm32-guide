@@ -1,0 +1,8 @@
+{
+    "cortex-debug.armToolchainPath": "C:/ProgramData/chocolatey/lib/gcc-arm-embedded/tools/bin",
+    "cortex-debug.openocdPath": "P:/portable/pro/openocd-0.10.0/bin/openocd.exe",
+    "files.associations": {
+        "main.h": "c",
+        "usart.h": "c"
+    }
+}

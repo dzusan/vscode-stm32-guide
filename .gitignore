@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Cortex-Debug
+.vscode/ipch/*
+.vscode/.cortex-debug.*
+*.lst
+*.bin

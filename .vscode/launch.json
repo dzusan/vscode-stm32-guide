@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "openocd",
+            "request": "launch",
+            "type": "cortex-debug",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build",
+            "servertype": "openocd",
+            "executable": "build/vscode-stm32-guide.elf",
+            "device": "STM32L053R8",
+            "svdFile": "STM32L0x3.svd",
+            "configFiles": [
+                "p:/portable/pro/openocd-0.10.0/scripts/interface/stlink-v2-1.cfg",
+                "p:/portable/pro/openocd-0.10.0/scripts/target/stm32l0.cfg"
+            ]
+        }
+    ]
+}

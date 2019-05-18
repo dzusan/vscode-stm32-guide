@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "vscode_stm32_c_cpp_properties",
+            "compilerPath": "c:/ProgramData/chocolatey/lib/gcc-arm-embedded/tools/bin",
+            "includePath": [
+                "${workspaceRoot}/Inc/",
+                "C:/STM32CubeRepository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc",
+                "C:/STM32CubeRepository/STM32Cube_FW_L0_V1.11.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy",
+                "C:/STM32CubeRepository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include",
+                "C:/STM32CubeRepository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include",
+                "C:/STM32CubeRepository/STM32Cube_FW_L0_V1.11.2/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32L053xx"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
