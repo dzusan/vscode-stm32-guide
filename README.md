@@ -29,7 +29,8 @@ MCU page on st.com -> Resources -> HW Model, CAD Libraries & SVD -> download Sys
 * Cortex-Debug from marus25.
 * С/С++ from Microsoft
 
-### 8. Press `Ctrl-Shift-b` to build, then `F5` and enjoy
+### 8. Press `F5` and enjoy
 
+************************************************************************
 I'm not sure that really must done, but it helped me.
 First run VS code as administrator. Next you can start it as commim user.
