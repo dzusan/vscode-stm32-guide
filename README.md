@@ -25,6 +25,10 @@ MCU page on st.com -> Resources -> HW Model, CAD Libraries & SVD -> download Sys
 
 ### 6. Copy `.vscode` from this repository into root of your project directory and improve it depend on your own configurations
 
+* Copy C includes from `Makefile` to `includePath` section in `.vscode/c_cpp_properties.json`
+* Copy C defines from `Makefile` to `defines` section in `.vscode/c_cpp_properties.json`
+* Copy uncommented defines from Module Selection of `Inc/stm32xxxx_hal_conf.h` to `defines` section in `.vscode/c_cpp_properties.json`
+
 ### 7. Install vscode extentions:
 * Cortex-Debug from marus25.
 * С/С++ from Microsoft
@@ -33,4 +37,4 @@ MCU page on st.com -> Resources -> HW Model, CAD Libraries & SVD -> download Sys
 
 ************************************************************************
 I'm not sure that really must done, but it helped me.
-First run VS code as administrator. Next you can start it as commim user.
+First run VS code as administrator. Next you can start it as common user.
